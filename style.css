@@ -7,6 +7,10 @@
   src: url("./Roboto-Black.ttf");
 }
 @font-face {
+  font-family: "roboto-thin";
+  src: url("./Roboto-Thin.ttf");
+}
+@font-face {
   font-family: "roboto";
   src: url("./Roboto-Light.ttf");
 }
@@ -42,14 +46,20 @@
   display: flex;
   justify-content: center;
   margin-bottom: 5%;
+  width: 100%;
 }
 .app-container .personnal-description .profile-block img {
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
 }
+.app-container .personnal-description h1 {
+  font-family: "roboto-black";
+}
 .app-container .personnal-description h3 {
-  margin: 1em;
+  margin-bottom: 3em;
+  margin-top: 0.5em;
+  font-family: "roboto-thin";
 }
 .app-container .personnal-description .profile-text h1 {
   color: #0b70ce;
@@ -57,7 +67,7 @@
   margin: 0;
   font-family: "roboto-bold";
   margin-bottom: 0.5em;
-  width: 70%;
+  width: 80%;
 }
 .app-container .personnal-description .profile-text p {
   color: #0b70ce;
@@ -71,7 +81,7 @@
   margin: 0;
   font-family: "roboto-bold";
   margin-bottom: 0.5em;
-  width: 70%;
+  width: 80%;
 }
 .app-container .personnal-description .profile-contact h4,
 .app-container .personnal-description .profile-contact span,
@@ -79,7 +89,7 @@
   color: #0b70ce;
 }
 .app-container .personnal-description .profile-contact h3 {
-  margin-left: 0;
+  margin: 0.5em 0;
 }
 .app-container .personnal-description .profile-contact .language-block {
   display: flex;
