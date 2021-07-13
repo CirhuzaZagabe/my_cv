@@ -47,10 +47,14 @@
   justify-content: center;
   margin-bottom: 5%;
   width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
-.app-container .personnal-description .profile-block img {
-  width: 15vw;
-  height: 15vw;
+.app-container .personnal-description .profile-block .profile img {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 .app-container .personnal-description h1 {
@@ -74,6 +78,9 @@
 }
 .app-container .personnal-description .profile-contact {
   margin-top: 1em;
+}
+.app-container .personnal-description .profile-contact .contact-block {
+  margin-bottom: 1em;
 }
 .app-container .personnal-description .profile-contact h1 {
   color: #0b70ce;
