@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "roboto-bold";
+  src: url("./Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "roboto-black";
+  src: url("./Roboto-Black.ttf");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("./Roboto-Light.ttf");
+}
+.text-center {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto";
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1% 5%;
+  background-color: #0b70ce3a;
+}
+.app-container .personnal-description {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.app-container .personnal-description * {
+  color: black !important;
+}
+.app-container .personnal-description .profile-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.app-container .personnal-description .profile-block img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+.app-container .personnal-description h3 {
+  margin: 1em;
+}
+.app-container .personnal-description .profile-text h1 {
+  color: #0b70ce;
+  border-bottom: 2px solid #000;
+  margin: 0;
+  font-family: "roboto-bold";
+  margin-bottom: 0.5em;
+  width: 70%;
+}
+.app-container .personnal-description .profile-text p {
+  color: #0b70ce;
+}
+.app-container .personnal-description .profile-contact {
+  margin-top: 1em;
+}
+.app-container .personnal-description .profile-contact h1 {
+  color: #0b70ce;
+  border-bottom: 2px solid #000;
+  margin: 0;
+  font-family: "roboto-bold";
+  margin-bottom: 0.5em;
+  width: 70%;
+}
+.app-container .personnal-description .profile-contact h4,
+.app-container .personnal-description .profile-contact span,
+.app-container .personnal-description .profile-contact a {
+  color: #0b70ce;
+}
+.app-container .personnal-description .profile-contact h3 {
+  margin-left: 0;
+}
+.app-container .personnal-description .profile-contact .language-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+.app-container .cv-content {
+  width: 50%;
+}
+.app-container .cv-content .career-block h1 {
+  font-family: "roboto-bold";
+  padding: 0.5em 1em;
+  background-color: #449bec;
+  color: #fff;
+  border-radius: 5px 25px 25px 5px;
+  margin-bottom: 1em;
+}
+.app-container .cv-content .career-block .detail-block {
+  margin: 1em 2em;
+}
+.app-container .cv-content .career-block .detail-block h5 {
+  margin: 1em 0;
+}
+.app-container .cv-content .career-block .career-detail {
+  margin: 1em 2em;
+}
+.app-container .cv-content .career-block .career-detail li {
+  margin-bottom: 0.5em;
+}
+
+/*# sourceMappingURL=style.css.map */

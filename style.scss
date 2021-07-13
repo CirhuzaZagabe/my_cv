@@ -1,0 +1,120 @@
+//config
+@font-face {
+  font-family: "roboto-bold";
+  src: url("./Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "roboto-black";
+  src: url("./Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("./Roboto-Light.ttf");
+}
+
+.text-center {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto";
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1% 5%;
+  background-color: #0b70ce3a;
+  .personnal-description {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    * {
+      color: black !important;
+    }
+    .profile-block {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5%;
+      img {
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+      }
+    }
+    h3 {
+      margin: 1em;
+    }
+    .profile-text {
+      h1 {
+        color: #0b70ce;
+        border-bottom: 2px solid #000;
+        margin: 0;
+        font-family: "roboto-bold";
+        margin-bottom: 0.5em;
+        width: 70%;
+      }
+      p {
+        color: #0b70ce;
+      }
+    }
+    .profile-contact {
+      margin-top: 1em;
+      h1 {
+        color: #0b70ce;
+        border-bottom: 2px solid #000;
+        margin: 0;
+        font-family: "roboto-bold";
+        margin-bottom: 0.5em;
+        width: 70%;
+      }
+      h4,
+      span,
+      a {
+        color: #0b70ce;
+      }
+      h3 {
+        margin-left: 0;
+      }
+      .language-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+      }
+    }
+  }
+  .cv-content {
+    width: 50%;
+    .career-block {
+      h1 {
+        font-family: "roboto-bold";
+        padding: 0.5em 1em;
+        background-color: #449bec;
+        color: #fff;
+        border-radius: 5px 25px 25px 5px;
+        margin-bottom: 1em;
+      }
+      .detail-block {
+        margin: 1em 2em;
+        h5 {
+          margin: 1em 0;
+        }
+      }
+      .career-detail {
+        margin: 1em 2em;
+        li {
+          margin-bottom: 0.5em;
+        }
+      }
+    }
+  }
+}
