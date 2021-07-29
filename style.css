@@ -80,7 +80,17 @@
   margin-top: 2em;
 }
 .app-container .personnal-description .profile-contact .contact-block {
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
+}
+.app-container .personnal-description .profile-contact .contact-block .contact {
+  display: flex;
+  align-items: center;
+}
+.app-container .personnal-description .profile-contact .contact-block .contact img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 1em;
 }
 .app-container .personnal-description .profile-contact h1 {
   color: #0b70ce;
@@ -104,6 +114,16 @@
   align-items: center;
   width: 70%;
 }
+.app-container .personnal-description .profile-contact .language-block h3 {
+  display: flex;
+  align-items: center;
+}
+.app-container .personnal-description .profile-contact .language-block h3 img {
+  margin-right: 1em;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
 .app-container .cv-content {
   width: 50%;
 }
@@ -122,9 +142,20 @@
   margin: 1em 0;
 }
 .app-container .cv-content .career-block .career-detail {
-  margin: 1em 3em;
+  margin: 1em 2em;
 }
-.app-container .cv-content .career-block .career-detail li {
+.app-container .cv-content .career-block .career-detail .competence-block {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.app-container .cv-content .career-block .career-detail .competence-block img {
+  width: 30px;
+  height: 30px;
+  margin-right: 1em;
+  border-radius: 5px;
+}
+.app-container .cv-content .career-block .career-detail .competence-block {
   margin-bottom: 0.5em;
 }
 

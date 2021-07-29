@@ -88,7 +88,17 @@
     .profile-contact {
       margin-top: 2em;
       .contact-block {
-        margin-bottom: 1em;
+        margin-bottom: 1.2em;
+        .contact {
+          display: flex;
+          align-items: center;
+          img {
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            margin-right: 1em;
+          }
+        }
       }
       h1 {
         color: #0b70ce;
@@ -111,6 +121,16 @@
         justify-content: space-between;
         align-items: center;
         width: 70%;
+        h3 {
+          display: flex;
+          align-items: center;
+          img {
+            margin-right: 1em;
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+          }
+        }
       }
     }
   }
@@ -132,8 +152,19 @@
         }
       }
       .career-detail {
-        margin: 1em 3em;
-        li {
+        margin: 1em 2em;
+        .competence-block {
+          list-style: none;
+          display: flex;
+          align-items: center;
+          img {
+            width: 30px;
+            height: 30px;
+            margin-right: 1em;
+            border-radius: 5px;
+          }
+        }
+        .competence-block {
           margin-bottom: 0.5em;
         }
       }
