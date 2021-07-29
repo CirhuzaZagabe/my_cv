@@ -23,7 +23,6 @@
   margin: 0;
   padding: 0;
   font-family: "roboto";
-  list-style: none;
   text-decoration: none;
   color: inherit;
 }
@@ -53,8 +52,9 @@
   position: relative;
 }
 .app-container .personnal-description .profile-block .profile img {
-  width: 200px;
-  height: 200px;
+  width: 320px;
+  height: 320px;
+  border: 20px solid #449bec;
   border-radius: 50%;
 }
 .app-container .personnal-description h1 {
@@ -96,7 +96,7 @@
   color: #0b70ce;
 }
 .app-container .personnal-description .profile-contact h3 {
-  margin: 0.5em 0;
+  margin: 0.25em 0;
 }
 .app-container .personnal-description .profile-contact .language-block {
   display: flex;
@@ -122,7 +122,7 @@
   margin: 1em 0;
 }
 .app-container .cv-content .career-block .career-detail {
-  margin: 1em 2em;
+  margin: 1em 3em;
 }
 .app-container .cv-content .career-block .career-detail li {
   margin-bottom: 0.5em;
