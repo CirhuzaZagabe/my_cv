@@ -1,6 +1,8 @@
 //config
 body {
-  min-height: 100vh;
+  @media print {
+    height: 100%;
+  }
 }
 
 @font-face {
@@ -38,11 +40,13 @@ body {
 }
 
 .app-container {
-  height: 100%;
   background-color: #0b70ce3a;
   display: flex;
   justify-content: space-around;
   padding: 5% 5%;
+  @media print {
+    height: 100%;
+  }
   .personnal-description {
     width: 30%;
     display: flex;
